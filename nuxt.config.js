@@ -31,7 +31,38 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/eslint-module'],
+  modules: ['@nuxtjs/eslint-module', 'nuxt-i18n'],
+  /*
+   ** i18n config
+   */
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-AU',
+        name: 'English'
+      },
+      {
+        code: 'nl',
+        iso: 'nl-BE',
+        name: 'Nederlands'
+      },
+      {
+        code: 'fr',
+        iso: 'fr-BE',
+        name: 'français'
+      }
+    ],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: require('./locales/en.json'),
+        nl: require('./locales/nl.json'),
+        fr: require('./locales/fr.json')
+      }
+    }
+  },
   /*
    ** Build configuration
    */
