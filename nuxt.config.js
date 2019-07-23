@@ -36,6 +36,8 @@ export default {
    ** i18n config
    */
   i18n: {
+    baseUrl: 'https://nuxt-i18n-demo.netlify.com',
+    seo: true,
     locales: [
       {
         code: 'en',
