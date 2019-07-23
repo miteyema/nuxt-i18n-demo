@@ -4,7 +4,13 @@
 
 Demo of Nuxt.js with i18n.
 
-View it in action on https://nuxt-i18n-demo.netlify.com
+View the app (build using `nuxt generate`) in action on https://nuxt-i18n-demo.netlify.com
+
+The Nuxt app has been scaffolded using `npx create-nuxt-app` (using v2.8.0) with ESLint and Prettier enabled.
+
+This project uses:
+- nuxt-i18n (https://nuxt-community.github.io/nuxt-i18n/)
+- eslint-plugin-vue-i18n (https://kazupon.github.io/eslint-plugin-vue-i18n/)
 
 ## Build Setup
 
