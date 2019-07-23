@@ -1,15 +1,14 @@
 <template>
   <div>
-    <h1>Privacy</h1>
-    <p>
-      This is the privacy policy. As I don't have time to translate, this will
-      just stay in English.
-    </p>
-    <p>
+    <h1 class="title">
+      Privacy
+    </h1>
+    <h2 class="subtitle">
+      As I don't have time to translate, this will just stay in English.
       <nuxt-link :to="localePath('index')">
         Go back
       </nuxt-link>
-    </p>
+    </h2>
   </div>
 </template>
 

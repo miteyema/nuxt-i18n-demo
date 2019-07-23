@@ -1,7 +1,11 @@
 <template>
   <div>
-    <h1>{{ $t('welcome') }}</h1>
-    <p>{{ $t('date', { date: $d(new Date(), 'long') }) }}</p>
+    <h1 class="title">
+      {{ $t('welcome') }}
+    </h1>
+    <h2 class="subtitle">
+      {{ $t('date', { date: $d(new Date(), 'long') }) }}
+    </h2>
     <p>
       <nuxt-link to="/privacy">
         {{ $t('privacy') }}
