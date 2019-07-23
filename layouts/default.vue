@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Nuxt />
     <ul>
       <li v-for="locale in $i18n.locales" :key="locale.code">
         <nuxt-link :to="switchLocalePath(locale.code)">
@@ -8,5 +7,6 @@
         </nuxt-link>
       </li>
     </ul>
+    <Nuxt />
   </div>
 </template>

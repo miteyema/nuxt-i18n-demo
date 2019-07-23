@@ -1,4 +1,5 @@
 {
   "welcome": "Hallo, dit is in het Nederlands!",
-  "date": "Wat is de datum vandaag? {date}"
+  "date": "Wat is de datum vandaag? {date}",
+  "privacy": "Bekijk het privacybeleid"
 }

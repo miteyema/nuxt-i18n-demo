@@ -1,4 +1,5 @@
 {
   "welcome": "Hello, this is in English!",
-  "date": "What is the date today? {date}"
+  "date": "What is the date today? {date}",
+  "privacy": "View privacy policy"
 }
