@@ -5,6 +5,11 @@
       This is the privacy policy. As I don't have time to translate, this will
       just stay in English.
     </p>
+    <p>
+      <nuxt-link :to="localePath('index')">
+        Go back
+      </nuxt-link>
+    </p>
   </div>
 </template>
 
