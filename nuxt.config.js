@@ -90,8 +90,6 @@ export default {
    */
   generate: {
     // No trailing slashes for static hosting
-    subFolders: false,
-    // SPA fallback when a route isn't generated
-    fallback: true
+    subFolders: false
   }
 }
