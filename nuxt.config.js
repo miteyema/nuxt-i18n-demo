@@ -84,5 +84,14 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  /*
+   ** Generate pages for static deploy
+   */
+  generate: {
+    // No trailing slashes for static hosting
+    subFolders: false,
+    // SPA fallback when a route isn't generated
+    fallback: true
   }
 }
