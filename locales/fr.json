@@ -1,3 +1,4 @@
 {
-  "welcome": "Salut, ceci est en français!"
+  "welcome": "Salut, ceci est en français!",
+  "date": "Quelle est la date d'aujourd'hui? {date}"
 }

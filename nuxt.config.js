@@ -60,6 +60,17 @@ export default {
         en: require('./locales/en.json'),
         nl: require('./locales/nl.json'),
         fr: require('./locales/fr.json')
+      },
+      dateTimeFormats: {
+        en: {
+          long: { year: 'numeric', month: 'long', day: 'numeric' }
+        },
+        nl: {
+          long: { year: 'numeric', month: 'long', day: 'numeric' }
+        },
+        fr: {
+          long: { year: 'numeric', month: 'long', day: 'numeric' }
+        }
       }
     }
   },
