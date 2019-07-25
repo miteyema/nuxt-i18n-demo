@@ -1,3 +1,4 @@
+<!-- eslint-disable vue-i18n/no-raw-text -->
 <template>
   <div>
     <h1 class="title">
@@ -13,7 +14,6 @@
 </template>
 
 <script>
-/* eslint-disable vue-i18n/no-raw-text */
 export default {
   // no i18n for privacy (too much trouble to translate)
   nuxtI18n: false
