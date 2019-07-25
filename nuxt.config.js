@@ -31,7 +31,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/eslint-module', 'nuxt-i18n'],
+  modules: ['nuxt-i18n'],
+  /*
+   ** Nuxt.js dev modules
+   */
+  devModules: ['@nuxtjs/eslint-module'],
   /*
    ** i18n config
    */
