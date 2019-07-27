@@ -1,15 +1,14 @@
 # nuxt-i18n-demo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb0f9441-2b73-4775-9fd5-4ab469506045/deploy-status)](https://app.netlify.com/sites/nuxt-i18n-demo/deploys)
+
 Demo of Nuxt.js with i18n.
+View it live as a static app (`nuxt generate`) on https://nuxt-i18n-demo.netlify.com
+
 It uses:
 
 - nuxt-i18n (https://nuxt-community.github.io/nuxt-i18n/)
 - eslint-plugin-vue-i18n (https://kazupon.github.io/eslint-plugin-vue-i18n/)
-
-This demo is deployed in two versions:
-
-- as a the static version using Netlify, view it live on https://nuxt-i18n-demo.netlify.com
-- as a SRR version of the app using Zeit, viet it live on https://nuxt-i18n-demo.miteyema.now.sh
 
 The Nuxt app has been scaffolded using `npx create-nuxt-app` (using v2.8.0) with npm, ESLint and Prettier enabled.
 
