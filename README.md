@@ -16,7 +16,7 @@ The Nuxt app has been scaffolded using `npx create-nuxt-app` (using v2.8.0) with
 
 ```bash
 # install dependencies
-$ npm run install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
