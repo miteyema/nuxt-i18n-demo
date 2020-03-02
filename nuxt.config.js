@@ -77,6 +77,12 @@ export default {
         fr: {
           long: { year: 'numeric', month: 'long', day: 'numeric' }
         }
+      },
+      // See https://nuxt-community.github.io/nuxt-i18n/browser-language-detection.html
+      detectBrowserLanguage: {
+        useCookie: true,
+        cookieKey: 'i18n_redirect',
+        alwaysRedirect: true
       }
     }
   },
