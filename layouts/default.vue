@@ -25,8 +25,6 @@ export default {
   },
   methods: {
     changeLanguage(code) {
-      // eslint-disable-next-line no-console
-      console.log(code)
       this.$i18n.setLocale(code)
     }
   }
