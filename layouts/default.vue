@@ -4,14 +4,14 @@
       <logo />
       <Nuxt />
       <div class="links">
-        <nuxt-link
-          :to="switchLocalePath(locale.code)"
+        <a
           v-for="locale in $i18n.locales"
           :key="locale.code"
+          @click="changeLanguage(locale.code)"
           class="button--grey"
         >
           {{ locale.name }}
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </div>
@@ -22,6 +22,13 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  methods: {
+    changeLanguage(code) {
+      // eslint-disable-next-line no-console
+      console.log(code)
+      this.$i18n.setLocale(code)
+    }
   }
 }
 </script>
