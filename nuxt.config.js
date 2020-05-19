@@ -107,11 +107,15 @@ export default {
     extend(config, ctx) {}
   },
   /*
+   ** Trailing slashes
+   */
+  router: {
+    trailingSlash: false
+  },
+  /*
    ** Generate pages for static deploy
    */
   generate: {
-    // No trailing slashes for static hosting
-    subFolders: false,
     // the following would be an API call
     routes: ['/dynamic/1', '/dynamic/2', '/dynamic/3']
   }
