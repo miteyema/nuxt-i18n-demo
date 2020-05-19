@@ -13,8 +13,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.11.0",
-    "nuxt-i18n": "^6.6.0"
+    "nuxt": "^2.12.2",
+    "nuxt-i18n": "^6.11.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
