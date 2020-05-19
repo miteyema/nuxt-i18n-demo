@@ -91,7 +91,7 @@ export default {
     }
   },
   /*
-   ** sitemap config
+   ** Sitemap config
    */
   sitemap: {
     hostname: 'https://nuxt-i18n-demo.netlify.com',
@@ -107,7 +107,7 @@ export default {
     extend(config, ctx) {}
   },
   /*
-   ** Trailing slashes
+   ** Router config
    */
   router: {
     trailingSlash: false
@@ -116,6 +116,8 @@ export default {
    ** Generate pages for static deploy
    */
   generate: {
+    // No trailing slashes on static hosting
+    subFolders: false,
     // the following would be an API call
     routes: ['/dynamic/1', '/dynamic/2', '/dynamic/3']
   }
