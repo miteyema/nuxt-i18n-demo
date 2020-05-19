@@ -9,6 +9,7 @@ It uses:
 
 - nuxt-i18n (https://nuxt-community.github.io/nuxt-i18n/)
 - eslint-plugin-vue-i18n (https://kazupon.github.io/eslint-plugin-vue-i18n/)
+- sitemap-module (https://github.com/nuxt-community/sitemap-module)
 
 The Nuxt app has been scaffolded using `npx create-nuxt-app` (using v2.8.0) with npm, ESLint and Prettier enabled.
 
