@@ -1,5 +1,6 @@
 {
   "welcome": "Salut, ceci est en français!",
   "date": "Quelle est la date d'aujourd'hui? {date}",
-  "privacy": "Voir la politique de confidentialité"
+  "privacy": "Voir la politique de confidentialité",
+  "thisIs": "Ceci est page {page}"
 }

@@ -31,7 +31,11 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-i18n'],
+  modules: [
+    'nuxt-i18n',
+    // sitemap should always come last
+    '@nuxtjs/sitemap'
+  ],
   /*
    ** Nuxt.js dev modules
    */
@@ -87,6 +91,13 @@ export default {
     }
   },
   /*
+   ** sitemap config
+   */
+  sitemap: {
+    hostname: 'https://nuxt-i18n-demo.netlify.com',
+    i18n: 'en'
+  },
+  /*
    ** Build configuration
    */
   build: {
@@ -100,6 +111,8 @@ export default {
    */
   generate: {
     // No trailing slashes for static hosting
-    subFolders: false
+    subFolders: false,
+    // the following would be an API call
+    routes: ['/dynamic/1', '/dynamic/2', '/dynamic/3']
   }
 }
