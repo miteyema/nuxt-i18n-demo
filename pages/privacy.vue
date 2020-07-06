@@ -16,6 +16,6 @@
 <script>
 export default {
   // no i18n for privacy (too much trouble to translate)
-  nuxtI18n: false
+  nuxtI18n: false,
 }
 </script>

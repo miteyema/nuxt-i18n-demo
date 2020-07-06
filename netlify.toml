@@ -13,5 +13,5 @@
   publish = "dist/"
 
   # Default build command.
-  command = "npm run generate"
+  command = "npm run build && npm run export"
   
