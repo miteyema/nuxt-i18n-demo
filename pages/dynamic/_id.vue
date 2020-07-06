@@ -13,6 +13,6 @@
 export default {
   asyncData({ params }) {
     return { page: params.id }
-  }
+  },
 }
 </script>
