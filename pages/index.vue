@@ -7,7 +7,7 @@
       {{ $t('date', { date: $d(new Date(), 'long') }) }}
     </h2>
     <p>
-      <nuxt-link to="/privacy">
+      <nuxt-link to="/privacy/">
         {{ $t('privacy') }}
       </nuxt-link>
     </p>
