@@ -121,7 +121,7 @@ export default {
    ** Router config
    */
   router: {
-    trailingSlash: false,
+    trailingSlash: true,
   },
 
   /*
