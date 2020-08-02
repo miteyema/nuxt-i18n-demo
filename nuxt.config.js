@@ -109,6 +109,7 @@ export default {
    */
   sitemap: {
     hostname: 'https://nuxt-i18n-demo.netlify.com',
+    trailingSlash: true,
     i18n: 'en',
   },
 
@@ -121,6 +122,7 @@ export default {
    ** Router config
    */
   router: {
+    // easily spot nuxt-link without a trailing slash, because they will return a 404
     trailingSlash: true,
   },
 
