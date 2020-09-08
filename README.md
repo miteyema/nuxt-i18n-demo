@@ -1,9 +1,9 @@
 # nuxt-i18n-demo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bb0f9441-2b73-4775-9fd5-4ab469506045/deploy-status)](https://app.netlify.com/sites/nuxt-i18n-demo/deploys)
+Demo of Nuxt.js with i18n:
 
-Demo of Nuxt.js with i18n.
-View it live as a fully static app (`nuxt generate`) on https://nuxt-i18n-demo.netlify.com
+- Static web app: https://nuxt-i18n-demo.netlify.app
+- SSR web app: https://nuxt-i18n-demo.vercel.app
 
 It uses:
 
