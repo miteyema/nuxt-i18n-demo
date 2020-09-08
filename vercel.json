@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "github": { "silent": true },
+  "regions": ["bru"],
+  "builds": [
+    {
+      "src": "nuxt.config.js",
+      "use": "@nuxtjs/vercel-builder",
+      "config": {
+        "serverFiles": ["locales/**", ".nuxt/dist/sitemap-routes.json"]
+      }
+    }
+  ],
+  "trailingSlash": true,
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "headers": [
+    {
+      "source": "/_nuxt/(.+)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31557600"
+        }
+      ]
+    }
+  ]
+}
