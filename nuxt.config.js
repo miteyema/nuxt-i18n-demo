@@ -1,3 +1,5 @@
+const appUrl = 'https://nuxt-i18n-demo.netlify.app'
+
 export default {
   /*
    ** Nuxt rendering mode
@@ -61,7 +63,7 @@ export default {
    ** i18n config
    */
   i18n: {
-    baseUrl: 'https://nuxt-i18n-demo.netlify.com',
+    baseUrl: appUrl,
     seo: true,
     locales: [
       {
@@ -108,9 +110,9 @@ export default {
    ** Sitemap config
    */
   sitemap: {
-    hostname: 'https://nuxt-i18n-demo.netlify.com',
+    hostname: appUrl,
     trailingSlash: true,
-    i18n: 'en',
+    i18n: true,
   },
 
   /*
