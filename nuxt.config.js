@@ -1,16 +1,10 @@
 const appUrl = 'https://nuxt-i18n-demo.netlify.app'
 
 export default {
-  /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: 'universal',
+  // See https://nuxtjs.org/api/configuration-mode
+  ssr: false,
 
-  /*
-   ** Nuxt target
-   ** See https://nuxtjs.org/api/configuration-target
-   */
+  // See https://nuxtjs.org/api/configuration-target
   target: 'server',
 
   /*

@@ -1,5 +1,5 @@
-<!-- eslint-disable vue-i18n/no-raw-text -->
 <template>
+  <!-- eslint-disable @intlify/vue-i18n/no-raw-text -->
   <div>
     <h1 class="title">Privacy</h1>
     <h2 class="subtitle">
