@@ -7,9 +7,9 @@ Demo of Nuxt.js with i18n:
 
 It uses:
 
-- nuxt-i18n (https://nuxt-community.github.io/nuxt-i18n/)
-- eslint-plugin-vue-i18n (https://kazupon.github.io/eslint-plugin-vue-i18n/)
-- sitemap-module (https://github.com/nuxt-community/sitemap-module)
+- nuxt-i18n (https://i18n.nuxtjs.org)
+- eslint-plugin-vue-i18n (https://eslint-plugin-vue-i18n.intlify.dev)
+- sitemap-module (https://sitemap.nuxtjs.org)
 
 This Nuxt app has been intially scaffolded using `npx create-nuxt-app`.
 
